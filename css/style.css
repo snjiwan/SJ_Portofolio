@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px 150px;
+}
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size: 1.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: purple;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.form {
+    background: blue;
+    padding: 40px 0px;
+    margin: 0px;
+  }
+
+.container {
+    width: 100%;
+    padding: 0 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/SJ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.main h2 span {
+    color: #4e9eff;
+    font-size: 2em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
